@@ -1,6 +1,6 @@
-### USER MANUAL FOR SARCASM DETECTION
+## USER MANUAL FOR SARCASM DETECTION
 
-## The BinarySarcasmDetection.ipynb and BinarySarcasmDetection2.ipynb consists of the code to classify the headline into sarcasm or not.
+### The BinarySarcasmDetection.ipynb and BinarySarcasmDetection2.ipynb consists of the code to classify the headline into sarcasm or not.
 
 Python libraries to be installed:
 pip install pandas
@@ -44,21 +44,21 @@ from sklearn.metrics import accuracy_score,  precision_score, recall_score
 
 
 
-## The AutomatedClassification.ipynb is used to annotate the binary labelled data into various types of sarcasms (deadpan, obnoxious, Self-deprecating, maniac, brooding, polite and raging)
+### The AutomatedClassification.ipynb is used to annotate the binary labelled data into various types of sarcasms (deadpan, obnoxious, Self-deprecating, maniac, brooding, polite and raging)
 Libraries:
 !pip install openai
 
-## Process:
+### Process:
 Load the dataset and select the binary labeled column and select the sarcastic headlines for further classification. Use the OpenAI API key and provide the prompt for classification using the ‘text-davinci-003’ model of GPT.
 
-## Process to get the API key:
+### Process to get the API key:
 Login to the OpenAI website and go to API section. Within first three month of signing-up the account, maximum of 5$ free usage will be provided. Get the API key and use it for classification.
 
 
-## The datasets Sarcasm__dataet.csv and deadpan_sarcasm.csv are the datasets for binary classification and deadpan sarcasm classification.
+### The datasets Sarcasm__dataet.csv and deadpan_sarcasm.csv are the datasets for binary classification and deadpan sarcasm classification.
 
 
-## The DeadpanSarcasm (1).ipynb is the code file for deadpan sarcasm classification.
+### The DeadpanSarcasm (1).ipynb is the code file for deadpan sarcasm classification.
 
 Additional libraries required are:
 1)	Afinn for sentiment analysis.
@@ -66,5 +66,5 @@ Additional libraries required are:
 3)	Sklearn.pipeline is used to create data processing and modeling pipeline.
 
 
-### All the codes are implemented on the python environment (google colab).
+## All the codes are implemented on the python environment (google colab).
 
